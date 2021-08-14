@@ -1,0 +1,375 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 1s;
+    box-sizing: border-box
+}
+/*start of the loader*/
+.loading{
+    width:100%;
+    height:100%;
+    position: fixed;
+    background-color:#555;
+    z-index:1000000000000000000000!important;
+}
+.cssload-thecube {
+	width: 73px;
+	height: 73px;
+	margin: 0 auto;
+	margin-top: 49px;
+    position: relative;
+    top:35%;
+	transform: rotateZ(45deg);
+		-o-transform: rotateZ(45deg);
+		-ms-transform: rotateZ(45deg);
+		-webkit-transform: rotateZ(45deg);
+		-moz-transform: rotateZ(45deg);
+}
+.cssload-thecube .cssload-cube {
+	position: relative;
+	transform: rotateZ(45deg);
+		-o-transform: rotateZ(45deg);
+		-ms-transform: rotateZ(45deg);
+		-webkit-transform: rotateZ(45deg);
+		-moz-transform: rotateZ(45deg);
+}
+.cssload-thecube .cssload-cube {
+	float: left;
+	width: 50%;
+	height: 50%;
+	position: relative;
+	transform: scale(1.1);
+		-o-transform: 11scale(1.1);
+		-ms-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
+}
+.cssload-thecube .cssload-cube:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #c7dcdd;
+	animation: cssload-fold-thecube 2.76s infinite linear both;
+		-o-animation: cssload-fold-thecube 2.76s infinite linear both;
+		-ms-animation: cssload-fold-thecube 2.76s infinite linear both;
+		-webkit-animation: cssload-fold-thecube 2.76s infinite linear both;
+		-moz-animation: cssload-fold-thecube 2.76s infinite linear both;
+	transform-origin: 100% 100%;
+		-o-transform-origin: 100% 100%;
+		-ms-transform-origin: 100% 100%;
+		-webkit-transform-origin: 100% 100%;
+		-moz-transform-origin: 100% 100%;
+}
+.cssload-thecube .cssload-c2 {
+	transform: scale(1.1) rotateZ(90deg);
+		-o-transform: scale(1.1) rotateZ(90deg);
+		-ms-transform: scale(1.1) rotateZ(90deg);
+		-webkit-transform: scale(1.1) rotateZ(90deg);
+		-moz-transform: scale(1.1) rotateZ(90deg);
+}
+.cssload-thecube .cssload-c3 {
+	transform: scale(1.1) rotateZ(180deg);
+		-o-transform: scale(1.1) rotateZ(180deg);
+		-ms-transform: scale(1.1) rotateZ(180deg);
+		-webkit-transform: scale(1.1) rotateZ(180deg);
+		-moz-transform: scale(1.1) rotateZ(180deg);
+}
+.cssload-thecube .cssload-c4 {
+	transform: scale(1.1) rotateZ(270deg);
+		-o-transform: scale(1.1) rotateZ(270deg);
+		-ms-transform: scale(1.1) rotateZ(270deg);
+		-webkit-transform: scale(1.1) rotateZ(270deg);
+		-moz-transform: scale(1.1) rotateZ(270deg);
+}
+.cssload-thecube .cssload-c2:before {
+	animation-delay: 0.35s;
+		-o-animation-delay: 0.35s;
+		-ms-animation-delay: 0.35s;
+		-webkit-animation-delay: 0.35s;
+		-moz-animation-delay: 0.35s;
+}
+.cssload-thecube .cssload-c3:before {
+	animation-delay: 0.69s;
+		-o-animation-delay: 0.69s;
+		-ms-animation-delay: 0.69s;
+		-webkit-animation-delay: 0.69s;
+		-moz-animation-delay: 0.69s;
+}
+.cssload-thecube .cssload-c4:before {
+	animation-delay: 1.04s;
+		-o-animation-delay: 1.04s;
+		-ms-animation-delay: 1.04s;
+		-webkit-animation-delay: 1.04s;
+		-moz-animation-delay: 1.04s;
+}
+
+
+
+@keyframes cssload-fold-thecube {
+	0%, 10% {
+		transform: perspective(136px) rotateX(-180deg);
+		opacity: 0;
+	}
+	25%,
+				75% {
+		transform: perspective(136px) rotateX(0deg);
+		opacity: 1;
+	}
+	90%,
+				100% {
+		transform: perspective(136px) rotateY(180deg);
+		opacity: 0;
+	}
+}
+
+@-o-keyframes cssload-fold-thecube {
+	0%, 10% {
+		-o-transform: perspective(136px) rotateX(-180deg);
+		opacity: 0;
+	}
+	25%,
+				75% {
+		-o-transform: perspective(136px) rotateX(0deg);
+		opacity: 1;
+	}
+	90%,
+				100% {
+		-o-transform: perspective(136px) rotateY(180deg);
+		opacity: 0;
+	}
+}
+
+@-ms-keyframes cssload-fold-thecube {
+	0%, 10% {
+		-ms-transform: perspective(136px) rotateX(-180deg);
+		opacity: 0;
+	}
+	25%,
+				75% {
+		-ms-transform: perspective(136px) rotateX(0deg);
+		opacity: 1;
+	}
+	90%,
+				100% {
+		-ms-transform: perspective(136px) rotateY(180deg);
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes cssload-fold-thecube {
+	0%, 10% {
+		-webkit-transform: perspective(136px) rotateX(-180deg);
+		opacity: 0;
+	}
+	25%,
+				75% {
+		-webkit-transform: perspective(136px) rotateX(0deg);
+		opacity: 1;
+	}
+	90%,
+				100% {
+		-webkit-transform: perspective(136px) rotateY(180deg);
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes cssload-fold-thecube {
+	0%, 10% {
+		-moz-transform: perspective(136px) rotateX(-180deg);
+		opacity: 0;
+	}
+	25%,
+				75% {
+		-moz-transform: perspective(136px) rotateX(0deg);
+		opacity: 1;
+	}
+	90%,
+				100% {
+		-moz-transform: perspective(136px) rotateY(180deg);
+		opacity: 0;
+	}
+}
+
+
+
+/*end of the loader*/
+
+.nav-link{
+   font-weight: 600;
+   color:black!important;
+   font-size: 12px;
+   letter-spacing: 2px;
+}
+.navbar-brand{
+    font-weight:700;
+    letter-spacing: 2px;
+    font-size:30px;
+}
+.navbar{
+	z-index: 1000000;
+}
+.myBg{
+    background-color:transparent;
+}
+body{
+    position: relative;
+}
+header{
+    position: relative;
+    height:100%;
+}
+.baby-blue{
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: #c7dcdd;
+    width:40%;
+    height:70%;
+}
+
+.pastel-violet{
+    width:50%;
+    bottom:0px;
+    height:75%;
+    position: absolute;
+    left:25%;
+    right:25%;
+}
+.team .col-md-3{
+    position: relative;
+}
+.team .col-md-3 .layer{
+    position: absolute;
+    background-color: white;
+    opacity: 0;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+.team .col-md-3:hover .layer{
+    opacity: .4;
+}
+.caption{
+    position: absolute;
+    top: 30%;
+    left: -15%;
+}
+.caption h1{
+    font-size:70px;
+    letter-spacing: 2px;
+}
+h1:after{
+    position: absolute;
+    background-color: white;
+    width:40px;
+    height:4px;
+    content: "";
+    bottom:81px;
+    right:-30px;
+}
+.caption p{
+    letter-spacing: 2px;
+    color:#494949;
+}
+
+section .nav-link{
+    color: rgb(132, 132, 134)!important;
+}
+section .active{
+    color:black!important;
+}
+.btn-explore{
+ color:white;
+ background-color: #b3d5d4;
+ border-radius:25%;
+ font-size:12px;
+ font-weight: 700;
+ letter-spacing: 2px;
+ padding:15px 25px;
+}
+.latest-news h3{
+    font-size: 20px;
+}
+.latest-news h3:hover{
+    color:#b3d5d4;
+}
+.latest-news p{
+    font-size:12px;
+    color:#494949;
+    margin-top:20px; 
+}
+.latest-news .trending{
+    position: relative;
+    overflow: hidden;
+}
+/********/
+.news{
+    position: relative;
+}
+.news .layer{
+  position: absolute;
+  z-index: 10000;
+  background-color: #7feafc;
+  opacity: 0;
+  width:40%;
+  top: 0;
+  bottom:0;
+  left:0;
+}
+.news .text{
+    color: #fff;
+    position: absolute;
+    top:30%;
+}
+.text p{
+    color:white;
+    font-size:20px;
+}
+.text span{
+    font-size:12px;
+}
+.news .tag{
+    background-color:white;
+    position: absolute;
+    top:10px;
+    right:10px;
+    padding:10px 25px;
+    border-radius: 5px;
+  
+}
+.news .tag p{
+    margin: 0px;
+}
+.news:hover .layer{
+    opacity: 0.7;
+}
+.trending .fst{
+    width:65%;
+}
+/**meddiiaaaa**/
+@media (max-width:500px){
+    .news .layer{
+        position: absolute;
+        z-index: 1000000000;
+        background-color: #7feafc;
+        opacity: 0;
+        width:50%;
+        top: 0;
+        bottom:0;
+        left:0;
+      }
+      .news .text{
+        color: #fff;
+        position: absolute;
+        top:20%;
+    }
+    .trending .fst{
+        width:100%;
+    }
+    .trending .second{
+        margin-top:10px;
+    }
+}
